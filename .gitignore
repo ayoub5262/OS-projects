@@ -1,0 +1,281 @@
+# =============================================================================
+# Systems Programming Course - Git Ignore Configuration
+# =============================================================================
+
+# =============================================================================
+# COMPILED BINARIES AND OBJECT FILES
+# =============================================================================
+
+# Object files
+*.o
+*.obj
+*.lo
+*.la
+*.al
+.libs/
+
+# Executables
+*.exe
+*.out
+*.app
+*.so
+*.dylib
+*.dll
+
+# Static libraries
+*.a
+*.lib
+
+# =============================================================================
+# ASSIGNMENT-SPECIFIC EXECUTABLES
+# =============================================================================
+
+# Assignment 2 - System Programming Fundamentals
+thread_bag_distribution
+file_operations_advanced
+system_programming_extended
+
+# Assignment 3 - Process Synchronization & Threading
+semaphore_basic_sync
+semaphore_advanced_patterns
+multithread_exam_system
+
+# Assignment 4 - Memory Management Algorithms
+test_first_fit
+test_best_fit
+test_advanced
+memory_allocator_first_fit
+memory_allocator_best_fit
+memory_manager_advanced
+memory_allocator_next_fit
+test_first_fit_allocator
+test_best_fit_allocator
+test_advanced_memory_manager
+
+# Assignment 5 - Image Processing
+ppm_image_reader
+image_transformation_engine
+image_filter_processor
+advanced_image_processor
+
+# Utility Programs
+interactive_shell_menu
+interactive_menu_advanced
+prime_number_generator
+prime_number_advanced
+process_fork_demonstration
+
+# =============================================================================
+# LEGACY AND ALTERNATIVE EXECUTABLE NAMES
+# =============================================================================
+
+# Legacy assignment names (for backward compatibility)
+3_b
+3_c
+3_extra
+a5_a
+a5_b
+a5_c
+a5_d
+aufgabe2a
+aufgabe2c
+aufgabe2_extra
+shell_menue
+shell_menue_extra
+prim
+prim_extra
+test_4a
+test_4b
+test_4extended
+count_files_klausur
+countBytes
+klausur1
+klausur23_1
+numreader
+probekl_ss22
+quiz_dateisys
+quiz_prozess1
+
+# =============================================================================
+# BUILD AND DEBUG FILES
+# =============================================================================
+
+# Build directories
+build/
+dist/
+bin/
+obj/
+target/
+
+# Debug files
+*.dSYM/
+*.su
+*.pdb
+*.idb
+*.ilk
+
+# Core dumps
+core
+core.*
+*.core
+vgcore.*
+
+# Profiling and analysis
+*.gcda
+*.gcno
+*.gcov
+gmon.out
+callgrind.out.*
+cachegrind.out.*
+
+# =============================================================================
+# DEVELOPMENT ENVIRONMENT FILES
+# =============================================================================
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+*.swp
+*.swo
+*~
+
+# Editor backup files
+*~
+*.bak
+*.backup
+*.tmp
+.#*
+\#*#
+
+# Tags files
+tags
+TAGS
+.tags
+.TAGS
+
+# =============================================================================
+# OPERATING SYSTEM FILES
+# =============================================================================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# =============================================================================
+# TEMPORARY AND LOG FILES
+# =============================================================================
+
+# Log files
+*.log
+*.out
+*.err
+logs/
+
+# Temporary files
+tmp/
+temp/
+*.temp
+*.tmp
+
+# Lock files
+*.lock
+.lock
+
+# =============================================================================
+# DOCUMENTATION AND ARCHIVES
+# =============================================================================
+
+# Generated documentation
+docs/_build/
+docs/build/
+*.pdf
+*.ps
+*.dvi
+
+# Archive files (keep source, ignore packaged versions)
+*.zip
+*.tar
+*.tar.gz
+*.tar.bz2
+*.tar.xz
+*.rar
+*.7z
+
+# =============================================================================
+# ACADEMIC AND SUBMISSION FILES
+# =============================================================================
+
+# Answer files and solutions (protect academic integrity)
+*antworten*.txt
+*answers*.txt
+*solution*.txt
+*lösung*.txt
+
+# Submission packages
+*submission*.zip
+*abgabe*.zip
+*homework*.tar.gz
+
+# =============================================================================
+# PROJECT-SPECIFIC IGNORES
+# =============================================================================
+
+# PPM output files (generated during testing)
+output*.ppm
+result*.ppm
+test_output*.ppm
+
+# Memory test outputs
+memory_test_*.txt
+performance_*.txt
+
+# Benchmark results
+benchmark_*.csv
+results_*.txt
+
+# Generated Makefiles
+Makefile.bak
+Makefile.old
+
+# Configuration files
+config.local
+.config
+
+# =============================================================================
+# SECURITY AND SENSITIVE FILES
+# =============================================================================
+
+# SSH keys
+*.pem
+*.key
+id_rsa*
+id_dsa*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# =============================================================================
+# END OF GITIGNORE
+# =============================================================================
