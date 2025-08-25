@@ -20,8 +20,8 @@ This repository showcases practical implementations of:
 │   ├── assignment4/          # Memory management algorithms
 │   └── assignment5/          # Image processing with PPM format
 ├── utilities/                # Helper programs and demonstrations
-├── Makefile_Master          # Master build configuration
-└── README.md               # This file
+├── Makefile                  # Master build configuration
+└── README.md                 # This file
 ```
 
 ## 🔧 Technologies Used
