@@ -1,11 +1,8 @@
 #include "memory_allocator_first_fit.h"
 #include <stdio.h>
 
-size_t last_alloc = 0; // Use this variable to keep track of the last allocation.
+size_t last_alloc = 0; // This variable is used to keep track of the last allocation.
 
-/*
- * Note: Implement a helper function that finds a free gap with the appropriate size:
- */
 static size_t find_gap(size_t req_size) {
 	size_t i = last_alloc;
     size_t count = 0;
