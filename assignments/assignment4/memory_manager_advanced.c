@@ -1,15 +1,7 @@
 #include "memory_manager_advanced.h"
 #include <stdio.h>
-// Add additional includes here if needed
-
-/*
- * Here you can place any required global variables and/or helper functions
- */
 
 
-/*
- * Note: Implement a helper function that finds a free gap with the appropriate size:
- */
 static size_t find_gap(size_t req_size) {
 	size_t bestfit = NUM_CHUNKS;
 
